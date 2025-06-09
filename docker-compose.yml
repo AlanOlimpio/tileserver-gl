@@ -1,0 +1,11 @@
+version: '1'
+
+services:
+  tileserver:
+    image: maptiler/tileserver-gl:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - "./data:/data"
+
+

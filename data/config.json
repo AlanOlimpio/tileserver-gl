@@ -1,0 +1,39 @@
+{
+  "options": {
+    "paths": {
+      "fonts": "fonts",
+      "styles": "styles"
+    }
+  },
+  "styles": {
+    "osm-bright": {
+      "style": "osm-bright/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [-82.0, -56.0, -34.0, 13.0]
+
+      }
+    },
+    "dark-south-america": {
+      "style": "dark-south-america/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [-82.0, -56.0, -34.0, 13.0]
+
+      }
+    },
+    "positron-south-america": {
+    "style": "positron-south-america/style.json",
+    "tilejson": {
+      "type": "overlay",
+      "bounds": [-82.0, -56.0, -34.0, 13.0]
+
+    }
+  }
+  },
+  "data": {
+    "openmaptiles": {
+      "mbtiles": "osm-2020-02-10-v3.11_south-america_brazil.mbtiles"
+    }
+  }
+}
